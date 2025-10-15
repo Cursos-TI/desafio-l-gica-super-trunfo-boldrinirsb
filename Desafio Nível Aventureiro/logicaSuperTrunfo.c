@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-// Definicao de tipo para a Populacao
-typedef unsigned long int PopulacaoType;
-
 int main() {
+
+    typedef unsigned long int PopulacaoType;
     int opcao;
     
     // --- DADOS DAS CARTAS ---
@@ -40,7 +39,7 @@ int main() {
 
     // --- 1. EXIBIÇÃO DO MENU INTERATIVO ---
     printf("======================================\n");
-    printf(" Super Trunfo de Cidades\n");
+    printf(" Super Trunfo de Países\n");
     printf("======================================\n");
     printf("Escolha o atributo para a batalha:\n");
     printf("1. População\n");

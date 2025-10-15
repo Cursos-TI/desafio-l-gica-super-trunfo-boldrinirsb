@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Definicoes de tipo para a tarefa avancada
+    
     typedef unsigned long int PopulacaoType;
 
     // --- 1. DEFINICAO DAS ESTRUTURAS DE DADOS ---

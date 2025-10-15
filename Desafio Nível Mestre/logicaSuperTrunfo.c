@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-// Definicao de tipo para a Populacao
-typedef unsigned long int PopulacaoType;
-
 int main() {
     
+    typedef unsigned long int PopulacaoType;
+
     // --- DADOS DAS CARTAS E VARIÁVEIS DE CONTROLE ---
     
     int atributo1 = 0; 
@@ -31,7 +30,7 @@ int main() {
     float densidade_populacional2;
     float pib_per_capita2;
 
-    // A soma final será float (Mantendo a coerência com o tipo mais complexo permitido)
+    // A soma final será float 
     float soma_valores1 = 0.0;
     float soma_valores2 = 0.0; 
     
@@ -43,7 +42,7 @@ int main() {
 
     // --- 2. MENU INTERATIVO (ESCOLHA DO 1º ATRIBUTO) ---
     printf("===========================================\n");
-    printf("        DESAFIO FINAL - SUPER TRUNFO       \n");
+    printf("        SUPER TRUNFO       \n");
     printf("===========================================\n");
     
     printf("\n--- Escolha o 1º Atributo ---\n");
