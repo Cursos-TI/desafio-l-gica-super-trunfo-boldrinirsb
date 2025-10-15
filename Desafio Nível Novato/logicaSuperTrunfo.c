@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-#include <stdio.h>
-
 int main() {
     // Definicoes de tipo para a tarefa avancada
     typedef unsigned long int PopulacaoType;
 
-    // --- 1. DEFINICAO DAS ESTRUTURAS DE DADOS (Hardcoded) ---
+    // --- 1. DEFINICAO DAS ESTRUTURAS DE DADOS ---
 
     // Carta 1: Sao Paulo (Configurada para ter mais Pontos Turisticos: 50)
     char estado1 = 'A';
@@ -70,7 +68,7 @@ int main() {
     printf("\n-------------------------------------------------\n");
     
     
-    // --- 5. LOGICA CENTRAL DE COMPARACAO (USANDO IF/IF-ELSE) ---
+    // --- 5. LOGICA CENTRAL DE COMPARACAO (USANDO IF/ELSE) ---
     
     printf("Comparacao de cartas (Atributo: %s):\n\n", atributo_comparacao);
     
