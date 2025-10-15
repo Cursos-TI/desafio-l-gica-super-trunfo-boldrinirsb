@@ -8,18 +8,18 @@ int main() {
     
     // --- DADOS DAS CARTAS ---
 
-    // Carta 1: São Paulo
-    char nome_cidade1[] = "São Paulo";
-    PopulacaoType populacao1 = 12325000;
-    float area1 = 1521.11;
-    float pib1 = 699.28;
+    // Carta 1: Portugal
+    char nome_cidade1[] = "Portugal";
+    PopulacaoType populacao1 = 10700000;
+    float area1 = 921.52;
+    float pib1 = 308.7;
     int pontos_turisticos1 = 50;
 
-    // Carta 2: Rio de Janeiro
-    char nome_cidade2[] = "Rio de Janeiro";
-    PopulacaoType populacao2 = 6748000;
-    float area2 = 1200.25;
-    float pib2 = 300.50;
+    // Carta 2: Chile
+    char nome_cidade2[] = "Chile";
+    PopulacaoType populacao2 = 19760000;
+    float area2 = 7566.26;
+    float pib2 = 330.3;
     int pontos_turisticos2 = 30;
 
     // Variáveis Calculadas 
