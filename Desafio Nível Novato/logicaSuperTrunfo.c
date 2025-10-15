@@ -75,47 +75,23 @@ int main() {
     printf("Comparacao de cartas (Atributo: %s):\n\n", atributo_comparacao);
     
     // Atribuicao dos valores do atributo escolhido
-    // Para Pontos Turisticos, usamos o tipo int.
     int valor_carta1 = pontos_turisticos1;
     int valor_carta2 = pontos_turisticos2;
     
-    // Variaveis auxiliares para formatacao da saida
-    char *cidade_vencedora;
-    char *codigo_vencedor;
-    
     // -------------------------------------------------------------
-    // LOGICA IF / IF-ELSE: Compara os valores
+    // LOGICA IF / ELSE: Carta 1 vence SE FOR MAIOR, senão, Carta 2 vence.
     // PONTOS TURÍSTICOS: MAIOR valor vence
     // -------------------------------------------------------------
 
     // 1. Verifica se a Carta 1 vence (MAIOR valor vence)
     if (valor_carta1 > valor_carta2) {
         // Carta 1 venceu
-        cidade_vencedora = nome_cidade1;
-        codigo_vencedor = codigo1;
-        
-        // Exibe os detalhes da comparacao e o resultado
-        printf("Carta 1 - %s (%s): %d\n", nome_cidade1, codigo1, valor_carta1);
-        printf("Carta 2 - %s (%s): %d\n", nome_cidade2, codigo2, valor_carta2);
-        printf("Resultado: Carta 1 (%s) venceu!\n", cidade_vencedora);
+        printf("Resultado: Carta 1 (%s) venceu!\n", nome_cidade1);
     } 
-    // 2. Se a Carta 1 nao venceu, verifica se a Carta 2 vence
-    else if (valor_carta2 > valor_carta1) {
-        // Carta 2 venceu
-        cidade_vencedora = nome_cidade2;
-        codigo_vencedor = codigo2;
-        
-        // Exibe os detalhes da comparacao e o resultado
-        printf("Carta 1 - %s (%s): %d\n", nome_cidade1, codigo1, valor_carta1);
-        printf("Carta 2 - %s (%s): %d\n", nome_cidade2, codigo2, valor_carta2);
-        printf("Resultado: Carta 2 (%s) venceu!\n", cidade_vencedora);
-    } 
-    // 3. Caso nao haja vencedor (empate)
+    // 2. Senão (o valor é menor ou igual), a Carta 2 vence por regra simples.
     else {
-        // Houve um empate
-        printf("Carta 1 - %s (%s): %d\n", nome_cidade1, codigo1, valor_carta1);
-        printf("Carta 2 - %s (%s): %d\n", nome_cidade2, codigo2, valor_carta2);
-        printf("Resultado: Empate entre as cartas!\n");
+        // Carta 2 venceu
+        printf("Resultado: Carta 2 (%s) venceu!\n", nome_cidade2);
     }
 
     return 0; // Finaliza o programa
